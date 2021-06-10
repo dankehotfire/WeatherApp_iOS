@@ -33,6 +33,7 @@ class NetworkWeatherManager {
 
     private func performRequest(withUrlString urlString: String) {
         guard let url = URL(string: urlString) else {
+            assertionFailure()
             return
         }
         let request = URLRequest(url: url)
@@ -57,7 +58,7 @@ class NetworkWeatherManager {
             }
             return currentWeather
         } catch {
-            print(error.localizedDescription)
+            assertionFailure("\(error.localizedDescription)")
         }
         return nil
     }
