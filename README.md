@@ -3,7 +3,7 @@
 
 ## Stack
 - Swift
-- UIKit, CoreLocation
+- UIKit, URLSession, CoreLocation
 - MVC
 
 
