@@ -1,5 +1,5 @@
 # WeatherApp_iOS
-#### *Training project to show weather by city or current location*
+*Training project to show weather by city or current location*
 
 ## Stack
 - Swift
