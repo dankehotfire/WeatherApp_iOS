@@ -7,5 +7,6 @@ target 'MyWeather' do
 
   # Pods for MyWeather
   pod 'RxSwift'
+  pod 'RxCocoa'
 
 end
